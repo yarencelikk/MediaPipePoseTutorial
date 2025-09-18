@@ -1,27 +1,23 @@
-# Real-Time Curl Counter (MediaPipe Pose)
+# Gerçek Zamanlı Curl Sayacı
 
-Web kameranızdan gelen akışla **dirsek açısını** hesaplar, **REPS** (tekrar) ve **STAGE** (up/down) bilgisini gerçek zamanlı gösterir.  
-Bu repo, YouTube’daki temel MediaPipe Pose anlatımından esinlenerek **baştan yazılmış** ve şu eklemelerle genişletilmiştir:
+Bu proje, MediaPipe Pose kütüphanesini kullanarak web kameranızdan gelen görüntü akışı üzerinde gerçek zamanlı bir curl (pazu bükme) sayacı çalıştırır. Uygulama, dirsek açısını anlık olarak hesaplayarak fitness takibini ve doğru egzersiz formunu destekler.
 
-- ✅ **Tek flip** ile selfie görünüm ve doğru LEFT/RIGHT eşlemesi  
-- ✅ Çözünürlükten bağımsız **dinamik HUD** (REPS/STAGE kutusu 10, 100… olduğunda taşmaz)  
-- ✅ Sol/sağ kol seçimi (`SIDE = "left" | "right"`)  
-- ✅ Ayarlanabilir eşikler (`ANGLE_UP_THR`, `ANGLE_DOWN_THR`)  
-- ✅ İmza satırı (örn. `github.com/yarencelikk`) ve opsiyonel **logo** desteği
+## ✨ Öne Çıkan Özellikler
+
+- **Dinamik HUD (Heads-Up Display):** Tekrar (REPS) sayısı ve hareketin aşaması (STAGE) bilgilerini, metin uzunluğuna göre otomatik ayarlanabilen, dinamik bir kutu içinde gösterir.
+- **Akıllı Sayaç Mekanizması:** Ayarlanabilir açı eşikleri sayesinde (ör. `ANGLE_UP_THR` ve `ANGLE_DOWN_THR`), tekrar sayımını hassas ve güvenilir bir şekilde gerçekleştirir.
+- **Kolay Kullanım:** Sol (`"left"`) veya sağ (`"right"`) kol için kolayca yapılandırılabilir.
+- **Çözünürlükten Bağımsızlık:** Uygulama, kullanılan kameranın çözünürlüğünden bağımsız olarak tüm görsel bileşenleri (metinler, sayılar) doğru şekilde konumlandırır.
+- **Selfie Modu:** Yalnızca tek bir yatay çevirme (`flip`) işlemi ile kullanıcıya ayna efekti sunar ve sol/sağ kol eşlemesini doğru yapar.
+- **Görsel Kimlik:** Opsiyonel logo desteği ve özelleştirilebilir imza satırı (ör. `github.com/yarencelikk`) ile projenize kişisel bir dokunuş katabilirsiniz.
+
 
 ---
 🙏 Teşekkür ve Kaynak
 
-Bu çalışma, bir YouTube MediaPipe Pose anlatımını referans alarak baştan yazılmış ve aşağıdaki iyileştirmelerle genişletilmiştir:
+Bu çalışma, bir YouTube MediaPipe Pose anlatımını referans alarak yazılmıştır.
 
-Dinamik HUD (REPS/STAGE)
-
-Flip güvenli metin yerleşimi (çözünürlük bağımsız)
-
-Sol/sağ kol seçimi ve ayarlanabilir eşikler
-
-Kaynak bağlantısı (varsa) ekleyin:
-Inspired by: [[YouTube tutorial linkinizi buraya ekleyin](https://www.youtube.com/watch?v=06TE_U21FK4)]
+İlham kaynağı: [[YouTube tutorial linkinizi buraya ekleyin](https://www.youtube.com/watch?v=06TE_U21FK4)]
 
 ---
 ## 🚀 Kurulum
