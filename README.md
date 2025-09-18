@@ -10,7 +10,20 @@ Bu repo, YouTube’daki temel MediaPipe Pose anlatımından esinlenerek **başta
 - ✅ İmza satırı (örn. `github.com/yarencelikk`) ve opsiyonel **logo** desteği
 
 ---
+🙏 Teşekkür ve Kaynak
 
+Bu çalışma, bir YouTube MediaPipe Pose anlatımını referans alarak baştan yazılmış ve aşağıdaki iyileştirmelerle genişletilmiştir:
+
+Dinamik HUD (REPS/STAGE)
+
+Flip güvenli metin yerleşimi (çözünürlük bağımsız)
+
+Sol/sağ kol seçimi ve ayarlanabilir eşikler
+
+Kaynak bağlantısı (varsa) ekleyin:
+Inspired by: [[YouTube tutorial linkinizi buraya ekleyin](https://www.youtube.com/watch?v=06TE_U21FK4)]
+
+---
 ## 🚀 Kurulum
 
 ```bash
