@@ -1,9 +1,5 @@
 # Real-Time Curl Counter (MediaPipe Pose)
 
-<p align="center">
-  <img src="assets/mediapipe_pose_demo.png" alt="MediaPipe Pose demo" width="720">
-</p>
-
 Web kameranızdan gelen akışla **dirsek açısını** hesaplar, **REPS** (tekrar) ve **STAGE** (up/down) bilgisini gerçek zamanlı gösterir.  
 Bu repo, YouTube’daki temel MediaPipe Pose anlatımından esinlenerek **baştan yazılmış** ve şu eklemelerle genişletilmiştir:
 
